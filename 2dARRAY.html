@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2D ARRAY</title>
+</head>
+<body>
+<h1 align="center">2D ARRAY</h1>
+<script type="text/javascript">
+	
+let a=["hiii","helllo"];
+document.write(a+"<br>");
+let b=["bye ","see u"];
+document.write(b+"<br>");
+let d=["luck","boy"];
+let c=a.concat(b,d);
+document.write(c+"<br>");
+document.write("check how is there or not : " + c.includes("helllo")+"<br>");
+document.write("check index how is there or not : " + c.indexOf ("helllo")+"<br>");
+
+document.write("after splice : " + c.splice (1,2,"bye")+"<br>");
+document.write(c+"<br>")
+c.fill()
+document.write("check index how is there or not : " + c.fill ("seven")+"<br>");
+
+
+</script>
+</body>
+</html>
